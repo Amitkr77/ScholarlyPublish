@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1f637a;
+  --color-secondary: #14b8a6;
+  --color-background-light: #fcfcfc;
+  --color-background-dark: #22252a;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  --font-FontFamily: "Public Sans", sans-serif;
+
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
